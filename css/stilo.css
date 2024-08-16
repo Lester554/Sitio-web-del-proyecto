@@ -1,0 +1,88 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.header {
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1000;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Menú de Navegación */
+.navbar {
+    background-color: #343a40;
+    padding: 10px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffd700;
+}
+
+/* Contenedor del Contenido */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.content h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+.content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Pie de Página */
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+}
